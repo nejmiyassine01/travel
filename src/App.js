@@ -1,9 +1,10 @@
 import React from 'react';
+import CarouselLanding from './components/CarouselLanding/CarouselLanding.component';
 
 const App = () => {
   return (
-    <div className='App'>
-      <h2>Travel Website</h2>
+    <div className='app'>
+      <CarouselLanding />
     </div>
   );
 };
